@@ -124,20 +124,20 @@ const experienceSection = `
                     <div class="company">qualitype, Dresden - SAMPLES</div>
                 </div>
                 <div class="description">
-                    Web-basiertes Produkt für Laborinformationsmanagement (LIMS) und geführte Untersuchungen (LES) |
-                    Klinische Labore, Qualitätskontroll-Labore u.a. Zielgruppen |
-                    Registrierung, Vorbereitung, Lagerung und Entsorgung von Proben |
-                    Geführte Untersuchung mit benutzerdefinierten Workflows |
-                    Erweiterungen für Auftragslabore |
-                    DSGVO-konforme Anonymisierung und Speicherung von Patientendaten |
-                    Generierung und Zustellung von Befunden |
-                    HL7/FHIR-Schnittstelle für Integration des LIMS in Klinikumgebungen |
-                    Netzwerkübergreifende Integration von Diensten und Laborgeräten |
-                    Entwicklung von Geräteadaptern u.a. für Drucker, Waagen und Pipetten |
-                    Steuerung von Laborgeräten durch das LES |
-                    Benutzerdefinierte Teilautomatisierung von Untersuchungsabläufen |
-                    Implementierung von Messe-Prototypen mit internationalen Partnern und Präsentation auf Industriemessen |
-                    DevOps-Unterstützung bei Implementierung einer CI/CD-Pipeline |
+                    Web-basiertes Produkt für Laborinformationsmanagement (LIMS) und geführte Untersuchungen (LES) <span class="separator">|</span>
+                    Klinische Labore, Qualitätskontroll-Labore u.a. Zielgruppen <span class="separator">|</span>
+                    Registrierung, Vorbereitung, Lagerung und Entsorgung von Proben <span class="separator">|</span>
+                    Geführte Untersuchung mit benutzerdefinierten Workflows <span class="separator">|</span>
+                    Erweiterungen für Auftragslabore <span class="separator">|</span>
+                    DSGVO-konforme Anonymisierung und Speicherung von Patientendaten <span class="separator">|</span>
+                    Generierung und Zustellung von Befunden <span class="separator">|</span>
+                    HL7/FHIR-Schnittstelle für Integration des LIMS in Klinikumgebungen <span class="separator">|</span>
+                    Netzwerkübergreifende Integration von Diensten und Laborgeräten <span class="separator">|</span>
+                    Entwicklung von Geräteadaptern u.a. für Drucker, Waagen und Pipetten <span class="separator">|</span>
+                    Steuerung von Laborgeräten durch das LES <span class="separator">|</span>
+                    Benutzerdefinierte Teilautomatisierung von Untersuchungsabläufen <span class="separator">|</span>
+                    Implementierung von Messe-Prototypen mit internationalen Partnern und Präsentation auf Industriemessen <span class="separator">|</span>
+                    DevOps-Unterstützung bei Implementierung einer CI/CD-Pipeline <span class="separator">|</span>
                     Anwenderunterstützung und technischer Betrieb
                 </div>
                 <ul class="badges">
@@ -170,12 +170,12 @@ const experienceSection = `
                     <div class="company">qualitype, Dresden - CeCuLab</div>
                 </div>
                 <div class="description">
-                    Desktop-App für analytisches Klinik-Labor |
-                    Registrierung, Lagerung und Untersuchung von Proben |
-                    Geführte Durchführung von Untersuchungen auf Basis benutzerdefinierter Workflows |
-                    Dokumentation und Analyse von ELISA-Tests |
-                    Integration von Laborgeräten für Datenaustausch und Steuerung |
-                    Etikettendrucker, Barcode-Scanner, Zellkultivierung und Photometer |
+                    Desktop-App für analytisches Klinik-Labor <span class="separator">|</span>
+                    Registrierung, Lagerung und Untersuchung von Proben <span class="separator">|</span>
+                    Geführte Durchführung von Untersuchungen auf Basis benutzerdefinierter Workflows <span class="separator">|</span>
+                    Dokumentation und Analyse von ELISA-Tests <span class="separator">|</span>
+                    Integration von Laborgeräten für Datenaustausch und Steuerung <span class="separator">|</span>
+                    Etikettendrucker, Barcode-Scanner, Zellkultivierung und Photometer <span class="separator">|</span>
                     Anwenderunterstützung und technischer Betrieb
                 </div>
                 <ul class="badges">
@@ -194,13 +194,13 @@ const experienceSection = `
                     <div class="company">qualitype, Dresden - GEDNAP</div>
                 </div>
                 <div class="description">
-                    Web-App für Ringversuche mit forensischen Kriminallaboren |
-                    Planung, Vorbereitung, Durchführung und Auswertung von Ringversuchen |
-                    Benutzerdefinierte Aufgabenstellungen mit automatischer Ergebnisauswertung |
-                    Benchmarking teilnehmender Labore |
-                    Generierung und Zustellung von Reports und Zertifikaten |
-                    DSGVO-konforme Pflege von Teilnehmerdaten |
-                    Anwenderunterstützung und technischer Betrieb |
+                    Web-App für Ringversuche mit forensischen Kriminallaboren <span class="separator">|</span>
+                    Planung, Vorbereitung, Durchführung und Auswertung von Ringversuchen <span class="separator">|</span>
+                    Benutzerdefinierte Aufgabenstellungen mit automatischer Ergebnisauswertung <span class="separator">|</span>
+                    Benchmarking teilnehmender Labore <span class="separator">|</span>
+                    Generierung und Zustellung von Reports und Zertifikaten <span class="separator">|</span>
+                    DSGVO-konforme Pflege von Teilnehmerdaten <span class="separator">|</span>
+                    Anwenderunterstützung und technischer Betrieb <span class="separator">|</span>
                     Kontinuierliche Implementierung von Anpassungen und Erweiterungen
                 </div>
                 <ul class="badges">
@@ -219,9 +219,9 @@ const experienceSection = `
                     <div class="company">qualitype, Dresden - Genolab</div>
                 </div>
                 <div class="description">
-                    Web-basiertes Softwareprodukt für forensische Spurenanalyse |
-                    Portierung der Desktop-App auf neuen Java-EE Stack |
-                    Funktionen für Abrechnung und Payment-Processing |
+                    Web-basiertes Softwareprodukt für forensische Spurenanalyse <span class="separator">|</span>
+                    Portierung der Desktop-App auf neuen Java-EE Stack <span class="separator">|</span>
+                    Funktionen für Abrechnung und Payment-Processing <span class="separator">|</span>
                     Containerisierung der App-Services für Entwicklungsumgebung (Testballon)
                 </div>
                 <ul class="badges">
@@ -238,10 +238,10 @@ const experienceSection = `
                     <div class="company">qualitype, Dresden - GPMx</div>
                 </div>
                 <div class="description">
-                    Expertensoftware für forensische Spurenanalyse |
-                    Analyse genetischer Mischspuren mit mathematischen Methoden |
-                    Pflege und Verteilung genetischer Referenzdaten |
-                    Reporting für Untersuchungsergebnisse und Gutachten |
+                    Expertensoftware für forensische Spurenanalyse <span class="separator">|</span>
+                    Analyse genetischer Mischspuren mit mathematischen Methoden <span class="separator">|</span>
+                    Pflege und Verteilung genetischer Referenzdaten <span class="separator">|</span>
+                    Reporting für Untersuchungsergebnisse und Gutachten <span class="separator">|</span>
                     Funktionen für benutzerdefinierte Report-Layouts
                 </div>
                 <ul class="badges">
@@ -257,11 +257,11 @@ const experienceSection = `
                     <div class="company">qualitype, Dresden - Qualitrail v2</div>
                 </div>
                 <div class="description">
-                    Analyse, Konzeption und prototypische Implementierung mit internationalen Partnern |
-                    Globale (EMEA), Branchen- und Stufen-übergreifende Rückverfolgbarkeit von Lebensmitteln |
-                    Algorithmen für Überbrückung von Lücken in der Zuliefererkette |
-                    Funktionen für QM, Benchmarking und Qualifizierung teilnehmender Betriebe |
-                    I18N von Report-Layouts und -Inhalten |
+                    Analyse, Konzeption und prototypische Implementierung mit internationalen Partnern <span class="separator">|</span>
+                    Globale (EMEA), Branchen- und Stufen-übergreifende Rückverfolgbarkeit von Lebensmitteln <span class="separator">|</span>
+                    Algorithmen für Überbrückung von Lücken in der Zuliefererkette <span class="separator">|</span>
+                    Funktionen für QM, Benchmarking und Qualifizierung teilnehmender Betriebe <span class="separator">|</span>
+                    I18N von Report-Layouts und -Inhalten <span class="separator">|</span>
                     Betrieb als verteilte Lösung zur Verbesserung der Antwortzeiten
                 </div>
                 <ul class="badges">
@@ -281,11 +281,11 @@ const experienceSection = `
                     <div class="company">qualitype, Dresden - Qualitrail</div>
                 </div>
                 <div class="description">
-                    Rückverfolgbarkeit von Lebensmitteln |
-                    Web-Service mit Browser-Frontend |
-                    QM für Zuliefererkette |
-                    Integration mit SW teilnehmender Betriebe |
-                    Kontinuierliche Erweiterung um neue Branchen und Stufen |
+                    Rückverfolgbarkeit von Lebensmitteln <span class="separator">|</span>
+                    Web-Service mit Browser-Frontend <span class="separator">|</span>
+                    QM für Zuliefererkette <span class="separator">|</span>
+                    Integration mit SW teilnehmender Betriebe <span class="separator">|</span>
+                    Kontinuierliche Erweiterung um neue Branchen und Stufen <span class="separator">|</span>
                     Support-Unterstützung
                 </div>
                 <ul class="badges">
@@ -305,9 +305,9 @@ const experienceSection = `
                     <div class="company">Daimler Chrysler, Stuttgart</div>
                 </div>
                 <div class="description">
-                    Prozess- und Systemintegration im Bereich IT Corporate Controlling | 
-                    Implementierung SAP Template für neues Werk in Übersee | 
-                    Integration von Prozessen für Logistik, Beschaffung und Financial Controlling | 
+                    Prozess- und Systemintegration im Bereich IT Corporate Controlling <span class="separator">|</span> 
+                    Implementierung SAP Template für neues Werk in Übersee <span class="separator">|</span> 
+                    Integration von Prozessen für Logistik, Beschaffung und Financial Controlling <span class="separator">|</span> 
                     Workflow Automatisierung
                 </div>
                 <ul class="badges">
@@ -323,10 +323,10 @@ const experienceSection = `
                     <div class="company">Tiscon Infosystems, Neu-Ulm</div>
                 </div>
                 <div class="description">
-                    Master Data-, Material- und Claims-Management | 
-                    Rückverfolgbarkeit von Produkten und Teilen | 
-                    Reporting | 
-                    Integration mit Produktionssteuerung | 
+                    Master Data-, Material- und Claims-Management <span class="separator">|</span> 
+                    Rückverfolgbarkeit von Produkten und Teilen <span class="separator">|</span> 
+                    Reporting <span class="separator">|</span> 
+                    Integration mit Produktionssteuerung <span class="separator">|</span> 
                     Workflow-Automatisierung
                 </div>
                 <ul class="badges">
@@ -344,10 +344,10 @@ const experienceSection = `
                     <div class="company">ATOS Origin, Frankfurt/Main</div>
                 </div>
                 <div class="description">
-                    Financial Controlling | 
-                    Integration Mainframe und App Server | 
-                    Message-Mapping und -Routing für Buchungen aus Kontoauszugsdaten | 
-                    Workflow-Automatisierung | 
+                    Financial Controlling <span class="separator">|</span> 
+                    Integration Mainframe und App Server <span class="separator">|</span> 
+                    Message-Mapping und -Routing für Buchungen aus Kontoauszugsdaten <span class="separator">|</span> 
+                    Workflow-Automatisierung <span class="separator">|</span> 
                     Web-App für manuelle Nachbearbeitung
                 </div>
                 <ul class="badges">
@@ -384,12 +384,12 @@ const educationSection = `
         <h3>Ausbildung</h3>
         <ul>
             <li>
-                <div class="label">Technische Informatik</div>
-                <div class="text">Technische Universität Dresden | 2003</div>
+                <div class="label">Technische Universität Dresden | 2003</div>
+                <div class="text">Technische Informatik</div>
             </li>
             <li>
-                <div class="label">Technischer Assistent für Informatik</div>
-                <div class="text">Berufsbildungszentrum Wittenberg | 1997</div>
+                <div class="label">Berufsbildungszentrum Wittenberg | 1997</div>
+                <div class="text">Technischer Assistent für Informatik</div>
             </li>
         </ul>
     </section>
