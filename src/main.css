@@ -186,6 +186,30 @@ ul.jobs {
  * responsive design
  */
 
+.wide-view {
+    display: none;
+}
+
+.sidebar {
+    display: inline-block;
+    min-width: 300px;
+}
+
+.content {
+    display: inline-block;
+}
+
+@media (min-width: 600px) {
+
+    .narrow-view {
+        display: none;
+    }
+
+    .wide-view {
+        display: flex;
+    }
+}
+
 @media (min-width: 1200px) {
 
     .app-container {

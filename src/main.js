@@ -64,7 +64,6 @@ const skillsSection = `
                     <li>Messaging</li>
                     <li>Workflows</li>
                     <li>Mapping+Routing</li>
-                    <li>Windows Services</li>
                 </ul>
             </li>
             <li>
@@ -395,18 +394,34 @@ const contactSection = `
  */
 document.querySelector('#app').innerHTML = `
     ${titleSection}
-    ${aboutSection}
-    ${skillsSection}
-    ${experienceSection}
-    ${referencesSection}
-    ${educationSection}
-    ${contactSection}
+    <div class="narrow-view">
+        ${aboutSection}
+        ${skillsSection}
+        ${experienceSection}
+        ${referencesSection}
+        ${educationSection}
+        ${contactSection}
+    </div>
+    <div class="wide-view">
+        <div class="sidebar">
+            ${skillsSection}
+            ${referencesSection}
+            ${educationSection}
+            ${contactSection}
+        </div>
+        <div class="content">
+            ${aboutSection}
+            ${experienceSection}
+        </div>
+    </div>
 `;
 
+/*
 document.querySelectorAll("li.collapsed").forEach(li => {
     li.addEventListener("click", () => {
         li.classList.remove("collapsed");
     });
 });
+*/
 
 console.log("Application started");
