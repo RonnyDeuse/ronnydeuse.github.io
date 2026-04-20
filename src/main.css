@@ -3,10 +3,10 @@
  */
 
 :root {
-    --color-1: #000000;
-    --color-2: #ffffff;
+    --color-1: #222;
+    --color-2: #eee;
     --color-3: #e86800;
-    --color-4: #878787;
+    --color-4: #777;
     --spacing-lg: 10px;
     --spacing-sm: 5px;
     --shadow-bg: 0px 1px 4px rgba(0, 0, 0, 0.75);
