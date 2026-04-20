@@ -11,7 +11,7 @@ const titleSection = `
         <img class="profile-photo" src="${profilePhoto}" alt="Profile Photo" width="120" height="120">
         <div class="profile-info">
             <h1>RONNY DEUSE</h1>
-            <h2>Software-Entwicklung und -Integration</h2>
+            <h2>Software-Entwicklung, Integration und Automatisierung</h2>
             <div class="location">Dresden, Deutschland</div>
         </div>
     </section>
@@ -34,21 +34,14 @@ const aboutSection = `
  */
 const skillsSection = `
     <section id="skills">
-        <h3>Fähigkeiten</h3>
+        <h3>Technische Fähigkeiten</h3>
         <ul>
-            <li>
-                <div class="label">Sprachen</div>
-                <ul class="badges">
-                    <li>Deutsch</li>
-                    <li>Englisch</li>
-                </ul>
-            </li>
             <li>
                 <div class="label">Frontend</div>
                 <ul class="badges">
+                    <li>SPA+PWA</li>
                     <li>JavaScript</li>
                     <li>Bootstrap</li>
-                    <li>Web Components</li>
                     <li>Blazor</li>
                 </ul>
             </li>
@@ -57,32 +50,16 @@ const skillsSection = `
                 <ul class="badges">
                     <li>C#</li>
                     <li>ASP.NET Core</li>
-                    <li>KISS+SOLID</li>
-                    <li>Clean Code+Architecture</li>
-                    <li>TDD</li>
-                    <li>xUnit+Moq</li>
-                </ul>
-            </li>
-            <li>
-                <div class="label">Persistenz</div>
-                <ul class="badges">
                     <li>SQL-Server</li>
-                    <li>PostgreSQL</li>
-                </ul>
-            </li>
-            <li>
-                <div class="label">API</div>
-                <ul class="badges">
                     <li>RESTful</li>
                     <li>GraphQL</li>
-                    <li>MQTT</li>
-                    <li>WebSockets</li>
+                    <li>SignalR</li>
                 </ul>
             </li>
             <li>
                 <div class="label">Integration</div>
                 <ul class="badges">
-                    <li>File I/O</li>
+                    <li>Office</li>
                     <li>Serial I/O</li>
                     <li>Messaging</li>
                     <li>Workflows</li>
@@ -100,13 +77,6 @@ const skillsSection = `
                     <li>CI+CD</li>
                 </ul>
             </li>
-            <li>
-                <div class="label">Erste Hilfe</div>
-                <ul class="badges">
-                    <li>Ersthelfer</li>
-                    <li>Brandschutzhelfer</li>
-                </ul>
-            </li>
         </ul>
     </section>
 `;
@@ -118,23 +88,23 @@ const experienceSection = `
     <section id="experience">
         <h3>Berufserfahrung</h3>
         <ul class="jobs">
-            <li>
+            <li class="collapsed">
                 <div class="header">
                     <div class="time">2019 - Heute</div>
                     <div class="company">qualitype, Dresden - SAMPLES</div>
                 </div>
                 <div class="description">
-                    Web-basiertes Produkt für Laborinformationsmanagement (LIMS) und geführte Untersuchungen (LES) <span class="separator">|</span>
+                    Web-basiertes Produkt für Laborinformationsmanagement (LIMS) und Untersuchungsprotokolle (LES) <span class="separator">|</span>
                     Klinische Labore, Qualitätskontroll-Labore u.a. Zielgruppen <span class="separator">|</span>
                     Registrierung, Vorbereitung, Lagerung und Entsorgung von Proben <span class="separator">|</span>
-                    Geführte Untersuchung mit benutzerdefinierten Workflows <span class="separator">|</span>
+                    Angeleitete Untersuchung mit benutzerdefinierten Workflows <span class="separator">|</span>
                     Erweiterungen für Auftragslabore <span class="separator">|</span>
                     DSGVO-konforme Anonymisierung und Speicherung von Patientendaten <span class="separator">|</span>
                     Generierung und Zustellung von Befunden <span class="separator">|</span>
                     HL7/FHIR-Schnittstelle für Integration des LIMS in Klinikumgebungen <span class="separator">|</span>
                     Netzwerkübergreifende Integration von Diensten und Laborgeräten <span class="separator">|</span>
-                    Entwicklung von Geräteadaptern u.a. für Drucker, Waagen und Pipetten <span class="separator">|</span>
-                    Steuerung von Laborgeräten durch das LES <span class="separator">|</span>
+                    Entwicklung von Geräteadaptern, u.a. für Drucker, Waagen und Pipetten, betrieben als Windows Services <span class="separator">|</span>
+                    Steuerung von Laborgeräten durch LES <span class="separator">|</span>
                     Benutzerdefinierte Teilautomatisierung von Untersuchungsabläufen <span class="separator">|</span>
                     Implementierung von Messe-Prototypen mit internationalen Partnern und Präsentation auf Industriemessen <span class="separator">|</span>
                     DevOps-Unterstützung bei Implementierung einer CI/CD-Pipeline <span class="separator">|</span>
@@ -143,28 +113,20 @@ const experienceSection = `
                 <ul class="badges">
                     <li>C#</li>
                     <li>ASP.NET Core</li>
+                    <li>REST</li>
+                    <li>GraphQL</li>
                     <li>QuestPDF</li>
                     <li>SQL-Server</li>
-                    <li>RESTful</li>
-                    <li>GraphQL</li>
                     <li>MQTT</li>
                     <li>Serial I/O</li>
-                    <li>Messaging</li>
-                    <li>Workflows</li>
-                    <li>Mapping+Routing</li>
                     <li>Windows Services</li>
-                    <li>SiLA2/AnIML</li>
+                    <li>SiLA2</li>
                     <li>OPC-UA/LADS</li>
-                    <li>HL7/FHIR</li>
-                    <li>Edge-IoT</li>
-                    <li>EMQX</li>
-                    <li>Camunda</li>
-                    <li>Node-RED</li>
                     <li>Docker</li>
                     <li>CI+CD</li>
                 </ul>
             </li>
-            <li>
+            <li class="collapsed">
                 <div class="header">
                     <div class="time">2017 - 2019</div>
                     <div class="company">qualitype, Dresden - CeCuLab</div>
@@ -180,15 +142,15 @@ const experienceSection = `
                 </div>
                 <ul class="badges">
                     <li>Java-EE</li>
-                    <li>Wildfly</li>
+                    <li>REST</li>
+                    <li>Wildfly AS</li>
                     <li>OSGI</li>
                     <li>Eclipse RCP</li>
                     <li>PostgreSQL</li>
-                    <li>Zebra-SDK</li>
                     <li>SiLA2</li>
                 </ul>
             </li>
-            <li>
+            <li class="collapsed">
                 <div class="header">
                     <div class="time">2015 - 2023</div>
                     <div class="company">qualitype, Dresden - GEDNAP</div>
@@ -205,15 +167,15 @@ const experienceSection = `
                 </div>
                 <ul class="badges">
                     <li>Java-EE</li>
-                    <li>Wildfly</li>
+                    <li>REST</li>
+                    <li>Wildfly AS</li>
                     <li>Angular.js</li>
                     <li>Bootstrap</li>
                     <li>Eclipse BIRT</li>
                     <li>PostgreSQL</li>
-                    <li>DSGVO</li>
                 </ul>
             </li>
-            <li>
+            <li class="collapsed">
                 <div class="header">
                     <div class="time">2014 - 2015</div>
                     <div class="company">qualitype, Dresden - Genolab</div>
@@ -226,13 +188,14 @@ const experienceSection = `
                 </div>
                 <ul class="badges">
                     <li>Java-EE</li>
-                    <li>Wildfly</li>
+                    <li>REST</li>
+                    <li>Wildfly AS</li>
                     <li>Stripe</li>
                     <li>PostgreSQL</li>
                     <li>Docker</li>
                 </ul>
             </li>
-            <li>
+            <li class="collapsed">
                 <div class="header">
                     <div class="time">2012 - 2014</div>
                     <div class="company">qualitype, Dresden - GPMx</div>
@@ -245,13 +208,13 @@ const experienceSection = `
                     Funktionen für benutzerdefinierte Report-Layouts
                 </div>
                 <ul class="badges">
-                    <li>Java</li>
+                    <li>Java-SE</li>
                     <li>OSGI</li>
                     <li>Eclipse RCP</li>
                     <li>Eclipse BIRT</li>
                 </ul>
             </li>
-            <li>
+            <li class="collapsed">
                 <div class="header">
                     <div class="time">2011 - 2012</div>
                     <div class="company">qualitype, Dresden - Qualitrail v2</div>
@@ -266,16 +229,16 @@ const experienceSection = `
                 </div>
                 <ul class="badges">
                     <li>Java-EE</li>
+                    <li>SOAP</li>
                     <li>JBoss Seam</li>
                     <li>JSF+Facelets</li>
                     <li>JBoss AS</li>
-                    <li>XML/SOAP</li>
                     <li>Jasper Reports</li>
                     <li>iReport</li>
                     <li>PostgreSQL</li>
                 </ul>
             </li>
-            <li>
+            <li class="collapsed">
                 <div class="header">
                     <div class="time">2007 - 2011</div>
                     <div class="company">qualitype, Dresden - Qualitrail</div>
@@ -290,16 +253,16 @@ const experienceSection = `
                 </div>
                 <ul class="badges">
                     <li>Java-EE</li>
+                    <li>SOAP</li>
                     <li>JBoss Seam</li>
                     <li>RichFaces</li>
                     <li>JBoss AS</li>
-                    <li>XML/SOAP</li>
                     <li>Jasper Reports</li>
                     <li>iReport</li>
                     <li>PostgreSQL</li>
                 </ul>
             </li>
-            <li>
+            <li class="collapsed">
                 <div class="header">
                     <div class="time">2006 - 2007</div>
                     <div class="company">Daimler Chrysler, Stuttgart</div>
@@ -317,7 +280,7 @@ const experienceSection = `
                     <li>SAP XI</li>
                 </ul>
             </li>
-            <li>
+            <li class="collapsed">
                 <div class="header">
                     <div class="time">2004 - 2006</div>
                     <div class="company">Tiscon Infosystems, Neu-Ulm</div>
@@ -331,14 +294,14 @@ const experienceSection = `
                 </div>
                 <ul class="badges">
                     <li>Java-EE</li>
-                    <li>XML/SOAP</li>
+                    <li>SOAP</li>
                     <li>Struts</li>
                     <li>Crystal Reports</li>
-                    <li>Websphere</li>
+                    <li>Websphere AS</li>
                     <li>HP Process Manager</li>
                 </ul>
             </li>
-            <li>
+            <li class="collapsed">
                 <div class="header">
                     <div class="time">2003 - 2004</div>
                     <div class="company">ATOS Origin, Frankfurt/Main</div>
@@ -352,9 +315,9 @@ const experienceSection = `
                 </div>
                 <ul class="badges">
                     <li>Java-EE</li>
-                    <li>XML/SOAP</li>
+                    <li>SOAP</li>
                     <li>Struts</li>
-                    <li>Websphere</li>
+                    <li>Websphere AS</li>
                 </ul>
             </li>
         </ul>
@@ -390,6 +353,15 @@ const educationSection = `
             <li>
                 <div class="label">Berufsbildungszentrum Wittenberg | 1997</div>
                 <div class="text">Technischer Assistent für Informatik</div>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <div class="label">Sprachen</div>
+                <ul class="badges">
+                    <li>Deutsch</li>
+                    <li>Englisch</li>
+                </ul>
             </li>
         </ul>
     </section>
@@ -430,5 +402,11 @@ document.querySelector('#app').innerHTML = `
     ${educationSection}
     ${contactSection}
 `;
+
+document.querySelectorAll("li.collapsed").forEach(li => {
+    li.addEventListener("click", () => {
+        li.classList.remove("collapsed");
+    });
+});
 
 console.log("Application started");
