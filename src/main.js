@@ -50,6 +50,8 @@ const skillsSection = `
                 <ul class="badges">
                     <li>C#</li>
                     <li>ASP.NET Core</li>
+                    <li>TDD</li>
+                    <li>Microservices</li>
                     <li>SQL-Server</li>
                     <li>RESTful</li>
                     <li>GraphQL</li>
@@ -60,10 +62,11 @@ const skillsSection = `
                 <div class="label">Integration</div>
                 <ul class="badges">
                     <li>Office</li>
-                    <li>Serial I/O</li>
                     <li>Messaging</li>
                     <li>Workflows</li>
-                    <li>Mapping+Routing</li>
+                    <li>Serial I/O</li>
+                    <li>SiLA2</li>
+                    <li>OPC-UA/LADS</li>
                 </ul>
             </li>
             <li>
@@ -115,6 +118,7 @@ const experienceSection = `
                     <li>REST</li>
                     <li>GraphQL</li>
                     <li>QuestPDF</li>
+                    <li>Web Components</li>
                     <li>SQL-Server</li>
                     <li>MQTT</li>
                     <li>Serial I/O</li>
@@ -142,7 +146,6 @@ const experienceSection = `
                     <li>Java-EE</li>
                     <li>REST</li>
                     <li>Wildfly AS</li>
-                    <li>OSGI</li>
                     <li>Eclipse RCP</li>
                     <li>PostgreSQL</li>
                     <li>SiLA2</li>
@@ -188,6 +191,7 @@ const experienceSection = `
                     <li>Java-EE</li>
                     <li>REST</li>
                     <li>Wildfly AS</li>
+                    <li>React.js</li>
                     <li>Stripe</li>
                     <li>PostgreSQL</li>
                     <li>Docker</li>
@@ -207,9 +211,9 @@ const experienceSection = `
                 </div>
                 <ul class="badges">
                     <li>Java-SE</li>
-                    <li>OSGI</li>
                     <li>Eclipse RCP</li>
                     <li>Eclipse BIRT</li>
+                    <li>PostgreSQL</li>
                 </ul>
             </li>
             <li class="collapsed">
@@ -388,6 +392,31 @@ const contactSection = `
     </section>
 `;
 
+const miscSection = `
+    <section id="misc">
+        <h3>Verschiedenes</h3>
+        <ul>
+            <li>
+                <div class="label">Zusatzqualifikationen</div>
+                <ul class="badges">
+                    <li>Führerschein</li>
+                    <li>Ersthelfer</li>
+                    <li>Brandschutzhelfer</li>
+                </ul>
+            </li>
+            <li>
+                <div class="label">Hobbies</div>
+                <ul class="badges">
+                    <li>Make/Electronic</li>
+                    <li>Haustiere</li>
+                    <li>Garten</li>
+                    <li>Wandern</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+`;
+
 /**
  * app
  */
@@ -400,6 +429,7 @@ document.querySelector('#app').innerHTML = `
         ${referencesSection}
         ${educationSection}
         ${contactSection}
+        ${miscSection}
     </div>
     <div class="wide-view">
         <div class="sidebar">
@@ -407,6 +437,7 @@ document.querySelector('#app').innerHTML = `
             ${referencesSection}
             ${educationSection}
             ${contactSection}
+            ${miscSection}
         </div>
         <div class="content">
             ${aboutSection}

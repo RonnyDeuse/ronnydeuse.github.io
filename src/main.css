@@ -75,7 +75,6 @@ p {
 
 section {
     padding: var(--spacing-lg);
-    /*padding-bottom: 0px;*/
     background: var(--color-2);
 }
 
@@ -170,9 +169,9 @@ ul.jobs {
 
 #about {
     padding: 0px var(--spacing-lg) 0px var(--spacing-lg);
+
     p {
         background: var(--color-5);
-        /*border: 1px solid #ccc;*/
         padding: var(--spacing-lg);
     }
 }
@@ -214,36 +213,16 @@ ul.jobs {
     section {
         background: var(--color-5);
     }
-    /*
-    h3 {
-        background: var(--color-4)
-    }
-    div.label {
-        color: var(--color-2)
-    }
-    */
 }
 
 .content {
     display: inline-block;
-    /*
-    #about {
-        p {
-            background: var(--color-3)
-        }
-    }
-    */
 }
 
 @media (min-width: 600px) {
 
     :root {
         font: 0.9rem system-ui, 'Segoe UI', Roboto, sans-serif;
-        /*
-        --spacing-lg: 15px;
-        --spacing-lg: 20px;
-        --spacing-sm: 5px;
-        */
     }
 
     .narrow-view {
