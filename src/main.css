@@ -4,15 +4,16 @@
 
 :root {
     --color-1: #222;
-    --color-2: #eee;
+    --color-2: #fff;
     --color-3: #e86800;
-    --color-4: #777;
+    --color-4: #999;
+    --color-5: #eee;
     --spacing-lg: 10px;
     --spacing-sm: 5px;
     --shadow-bg: 0px 1px 4px rgba(0, 0, 0, 0.75);
     --shadow-sm: 0px 1px 2px rgba(0, 0, 0, 0.5);
 
-    font: 1rem system-ui, 'Segoe UI', Roboto, sans-serif;
+    font: 1.0rem system-ui, 'Segoe UI', Roboto, sans-serif;
     letter-spacing: 0.01rem;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -74,6 +75,7 @@ p {
 
 section {
     padding: var(--spacing-lg);
+    /*padding-bottom: 0px;*/
     background: var(--color-2);
 }
 
@@ -97,6 +99,13 @@ li {
 div.label {
     margin-bottom: var(--spacing-sm);
     color: var(--color-4);
+}
+
+div.text {
+    color: var(--color-3);
+    a {
+        text-decoration: underline;
+    }
 }
 
 /*
@@ -159,10 +168,19 @@ ul.jobs {
  * individual styles
  */
 
+#about {
+    padding: 0px var(--spacing-lg) 0px var(--spacing-lg);
+    p {
+        background: var(--color-5);
+        /*border: 1px solid #ccc;*/
+        padding: var(--spacing-lg);
+    }
+}
+
 #title {
     display: flex;
-    margin-bottom: var(--spacing-sm);
-    box-shadow: var(--shadow-sm);
+    margin-bottom: var(--spacing-lg);
+    box-shadow: var(--shadow-bg);
 
     .profile-photo {
         margin-right: var(--spacing-lg);
@@ -193,13 +211,40 @@ ul.jobs {
 .sidebar {
     display: inline-block;
     min-width: 300px;
+    section {
+        background: var(--color-5);
+    }
+    /*
+    h3 {
+        background: var(--color-4)
+    }
+    div.label {
+        color: var(--color-2)
+    }
+    */
 }
 
 .content {
     display: inline-block;
+    /*
+    #about {
+        p {
+            background: var(--color-3)
+        }
+    }
+    */
 }
 
 @media (min-width: 600px) {
+
+    :root {
+        font: 0.9rem system-ui, 'Segoe UI', Roboto, sans-serif;
+        /*
+        --spacing-lg: 15px;
+        --spacing-lg: 20px;
+        --spacing-sm: 5px;
+        */
+    }
 
     .narrow-view {
         display: none;

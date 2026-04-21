@@ -23,7 +23,7 @@ const titleSection = `
 const aboutSection = `
     <section id="about">
         <p>
-            Mein Job erlaubt es mir, meine Begeisterung für Technologie mit der Freude an der Lösung komplexer Aufgaben zu verbinden.
+            Mein Job erlaubt es mir, meine Begeisterung für Technologie mit der Freude an der Lösung komplexer Aufgabenstellungen zu verbinden.
             Mit 20+ Jahren Erfahrung in der Software-Entwicklung habe ich Projekte in verschiedenen Funktionen unterstützt: Von Prozess- und Anforderungsanalyse, über Planung und Steuerung - sowohl klassisch als auch agil, bis zur testgetriebenen Implementierung. Aktuell liegt mein Fokus auf der Integration und Automatisierung von Systemen, Geräten und Prozessen.
         </p>
     </section>
@@ -93,7 +93,7 @@ const experienceSection = `
                     <div class="company">qualitype, Dresden - SAMPLES</div>
                 </div>
                 <div class="description">
-                    Web-basiertes Produkt für Laborinformationsmanagement (LIMS) und Untersuchungsprotokolle (LES) <span class="separator">|</span>
+                    Web-basiertes Produkt für Laborinformationsmanagement (LIMS) und teilautomatisierte Untersuchung (LES) <span class="separator">|</span>
                     Klinische Labore, Qualitätskontroll-Labore u.a. Zielgruppen <span class="separator">|</span>
                     Registrierung, Vorbereitung, Lagerung und Entsorgung von Proben <span class="separator">|</span>
                     Angeleitete Untersuchung mit benutzerdefinierten Workflows <span class="separator">|</span>
@@ -102,7 +102,7 @@ const experienceSection = `
                     Generierung und Zustellung von Befunden <span class="separator">|</span>
                     HL7/FHIR-Schnittstelle für Integration des LIMS in Klinikumgebungen <span class="separator">|</span>
                     Netzwerkübergreifende Integration von Diensten und Laborgeräten <span class="separator">|</span>
-                    Entwicklung von Geräteadaptern, u.a. für Drucker, Waagen und Pipetten, betrieben als Windows Services <span class="separator">|</span>
+                    Entwicklung von Geräteadaptern, u.a. für Drucker, Waagen und Pipetten <span class="separator">|</span>
                     Steuerung von Laborgeräten durch LES <span class="separator">|</span>
                     Benutzerdefinierte Teilautomatisierung von Untersuchungsabläufen <span class="separator">|</span>
                     Implementierung von Messe-Prototypen mit internationalen Partnern und Präsentation auf Industriemessen <span class="separator">|</span>
@@ -118,7 +118,6 @@ const experienceSection = `
                     <li>SQL-Server</li>
                     <li>MQTT</li>
                     <li>Serial I/O</li>
-                    <li>Windows Services</li>
                     <li>SiLA2</li>
                     <li>OPC-UA/LADS</li>
                     <li>Docker</li>
@@ -134,7 +133,7 @@ const experienceSection = `
                     Desktop-App für analytisches Klinik-Labor <span class="separator">|</span>
                     Registrierung, Lagerung und Untersuchung von Proben <span class="separator">|</span>
                     Geführte Durchführung von Untersuchungen auf Basis benutzerdefinierter Workflows <span class="separator">|</span>
-                    Dokumentation und Analyse von ELISA-Tests <span class="separator">|</span>
+                    Dokumentation und Analyse von Labortests <span class="separator">|</span>
                     Integration von Laborgeräten für Datenaustausch und Steuerung <span class="separator">|</span>
                     Etikettendrucker, Barcode-Scanner, Zellkultivierung und Photometer <span class="separator">|</span>
                     Anwenderunterstützung und technischer Betrieb
@@ -270,7 +269,7 @@ const experienceSection = `
                     Prozess- und Systemintegration im Bereich IT Corporate Controlling <span class="separator">|</span> 
                     Implementierung SAP Template für neues Werk in Übersee <span class="separator">|</span> 
                     Integration von Prozessen für Logistik, Beschaffung und Financial Controlling <span class="separator">|</span> 
-                    Workflow Automatisierung
+                    Workflow-Automatisierung
                 </div>
                 <ul class="badges">
                     <li>Java-EE</li>
