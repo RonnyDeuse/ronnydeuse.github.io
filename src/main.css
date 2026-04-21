@@ -241,3 +241,58 @@ ul.jobs {
         margin: 0 auto;
     }
 }
+
+@media print {
+    :root {
+        font: 1.0rem system-ui, 'Segoe UI', Roboto, sans-serif;
+    }
+
+    h3 {
+        background: none;
+        border-radius: 0;
+        padding: var(--spacing-sm) 0 var(--spacing-sm) 0;
+        color: #000;
+        border-bottom: 1px solid #000;
+    }
+
+    ul.badges {
+        li {
+            background: none;
+            box-shadow: none;
+            border: 1px solid #000;
+            color: #000;
+            font-weight: bold;
+        }
+    }
+
+    .sidebar {
+        min-width: 250px;
+
+        div.label {
+            color: #000;
+        }
+
+        div.text {
+            color: #000;
+            font-weight: bold;
+            a {
+                color: #000;
+            }
+        }
+    }
+
+    #title {
+        box-shadow: none;
+
+        h2 {
+            background: #fff;
+            padding: 0;
+            color: #000;
+        }
+
+        div.location {
+            font-size: 1em;
+            color: #000;
+        }
+    }
+}
