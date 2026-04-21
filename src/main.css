@@ -23,6 +23,14 @@
     background: var(--color-2);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
 /*
  * element styles
  */
@@ -30,10 +38,6 @@
 a {
     text-decoration: none;
     color: var(--color-3);
-}
-
-body {
-    margin: 0;
 }
 
 h1 {
@@ -173,6 +177,7 @@ ul.jobs {
     p {
         background: var(--color-5);
         padding: var(--spacing-lg);
+        color: var(--color-1);
     }
 }
 
