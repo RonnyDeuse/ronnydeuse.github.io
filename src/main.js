@@ -5,6 +5,7 @@ import './main.css'
  */
 
 import profilePhoto from './assets/photo-small.png';
+import profilePhotoLarge from './assets/photo-big.png';
 
 const titleSection = `
     <section id="title">
@@ -13,6 +14,24 @@ const titleSection = `
             <h1>RONNY DEUSE</h1>
             <h2>Software-Entwicklung, Integration und Automatisierung</h2>
             <div class="location"><i class="fi fi-ss-land-layer-location"></i> Dresden</div>
+        </div>
+    </section>
+`;
+
+const largeTitleSection = `
+    <section id="titleLg">
+        <img class="profile-photo-lg" src="${profilePhotoLarge}" alt="Profile Photo">
+        <div class="profile-info">
+            <h1>RONNY DEUSE</h1>
+            <h2>Software-Entwicklung, Integration und Automatisierung</h2>
+            <div class="location"><i class="fi fi-ss-land-layer-location"></i> Dresden</div>
+        </div>
+        <div class="about-me">
+            <p>
+                Mein Job erlaubt mir, meine Begeisterung für Technologie mit der Freude an der Lösung komplexer Aufgabenstellungen zu verbinden.
+                Mit 20+ Jahren Erfahrung in der Software-Entwicklung habe ich Projekte in verschiedenen Funktionen begleitet:
+                Von Prozess- und Anforderungsanalyse, über Planung und Steuerung - sowohl klassisch als auch agil, bis zur testgetriebenen Implementierung. Aktuell liegt mein Fokus auf der Integration und Automatisierung von Systemen, Geräten und Prozessen.
+            </p>
         </div>
     </section>
 `;
@@ -299,7 +318,9 @@ const experienceSection = `
                 <div class="description">
                     Master Data-, Material- und Claims-Management <span class="separator">|</span> 
                     Rückverfolgbarkeit von Produkten und Teilen <span class="separator">|</span> 
-                    Reporting <span class="separator">|</span> 
+                    Web-App zur Verarbeitung von Financial und Physical Claims <span class="separator">|</span> 
+                    Optimierung von SQL Abfragen für komplexe Suchmasken <span class="separator">|</span> 
+                    Datenanalyse und Business-Reporting <span class="separator">|</span> 
                     Integration mit Produktionssteuerung <span class="separator">|</span> 
                     Workflow-Automatisierung
                 </div>
@@ -320,7 +341,8 @@ const experienceSection = `
                 <div class="description">
                     Financial Controlling <span class="separator">|</span> 
                     Integration Mainframe und App Server <span class="separator">|</span> 
-                    Message-Mapping und -Routing für Buchungen aus Kontoauszugsdaten <span class="separator">|</span> 
+                    Message-Mapping und -Routing <span class="separator">|</span> 
+                    Automatische Zuordnung und Verarbeitung von Kontoauszugsdaten <span class="separator">|</span> 
                     Workflow-Automatisierung <span class="separator">|</span> 
                     Web-App für manuelle Nachbearbeitung
                 </div>
@@ -443,8 +465,8 @@ const footerSection = `
  * app
  */
 document.querySelector('#app').innerHTML = `
-    ${titleSection}
     <div class="narrow-view">
+        ${titleSection}
         ${aboutSection}
         ${contactSection}
         ${skillsSection}
@@ -453,14 +475,14 @@ document.querySelector('#app').innerHTML = `
         ${educationSection}
     </div>
     <div class="wide-view">
+        ${largeTitleSection}
         <div class="sidebar">
             ${contactSection}
-            ${referencesSection}
             ${skillsSection}
+            ${referencesSection}
             ${educationSection}
         </div>
         <div class="content">
-            ${aboutSection}
             ${experienceSection}
         </div>
     </div>

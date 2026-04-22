@@ -119,6 +119,10 @@ div.text {
     }
 }
 
+i.fi {
+    margin-right: var(--spacing-sm);
+}
+
 /*
 li.collapsed {
     max-height: 100px;
@@ -186,6 +190,7 @@ ul.jobs {
         background: var(--color-5);
         padding: var(--spacing-lg);
         color: var(--color-1);
+        border-radius: 5px;
     }
 }
 
@@ -207,8 +212,68 @@ ul.jobs {
 
     .location {
         font-size: 0.8rem;
-        font-style: italic;
+        /*font-style: italic;*/
         color: var(--color-4);
+    }
+}
+
+#titleLg {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-areas: "photo title" "photo about";
+    margin-bottom: var(--spacing-lg);
+    /*box-shadow: var(--shadow-bg);*/
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    .location {
+        font-size: 1rem;
+        /*font-style: italic;*/
+        color: var(--color-4);
+    }
+
+    img.profile-photo-lg {
+        grid-area: photo;
+        width: 280px;
+        border-radius: 5px;
+    }
+
+    div.profile-info {
+        grid-area: title;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /*height: 300px;*/
+        height: 100%;
+    }
+
+    div.about-me {
+        grid-area: about;
+        /*grid-row-start: photo;*/
+        /*grid-row-end: photo;*/
+        grid-column-start: photo;
+        /*grid-column-end: about;*/
+        display: flex;
+        align-items: end;
+        /*padding: 0px var(--spacing-lg) 0px var(--spacing-lg);*/
+        /*padding: 0px 0px 0px 310px;*/
+        /*background: rgba(232, 104, 0, 0.5);*/
+
+        p {
+            /*background: var(--color-3);*/
+            background: rgba(232, 104, 0, 0.75);
+            padding: var(--spacing-lg) var(--spacing-lg) var(--spacing-lg) 300px;
+            color: var(--color-2);
+            /*border-radius: 5px;*/
+            margin-bottom: 0;
+        }
     }
 }
 
@@ -218,17 +283,21 @@ ul.jobs {
 
 .wide-view {
     display: none;
+    grid-template-columns: 300px 1fr;
+    grid-template-areas: "header header" "sidebar content";
 }
 
 .sidebar {
+    grid-area: sidebar;
     display: inline-block;
-    min-width: 300px;
+    /*min-width: 300px;*/
     section {
         background: var(--color-5);
     }
 }
 
 .content {
+    grid-area: content;
     display: inline-block;
 }
 
@@ -243,7 +312,7 @@ ul.jobs {
     }
 
     .wide-view {
-        display: flex;
+        display: grid;
     }
 }
 
