@@ -12,7 +12,7 @@ const titleSection = `
         <div class="profile-info">
             <h1>RONNY DEUSE</h1>
             <h2>Software-Entwicklung, Integration und Automatisierung</h2>
-            <div class="location">Dresden</div>
+            <div class="location"><i class="fi fi-ss-land-layer-location"></i> Dresden</div>
         </div>
     </section>
 `;
@@ -344,7 +344,7 @@ const referencesSection = `
         <ul class="contacts">
             <li class="mail">
                 <div class="label">Dr. Isabell Hilger, qualitype GmbH</div>
-                <div class="text"><a href="mailto:i.hilger@qualitype.de">i.hilger@qualitype.de</a></div>
+                <div class="text"><i class="fi fi-rr-envelope"></i>  <a href="mailto:i.hilger@qualitype.de">i.hilger@qualitype.de</a></div>
             </li>
         </ul>
     </section>
@@ -390,20 +390,19 @@ const contactSection = `
         <h3>Kontakt</h3>
         <ul class="contacts">
             <li class="phone">
-                <div class="label">Telefon</div>
-                <div class="text">+49 (0) 151 - 4248 0387</div>
+                <div class="text"><i class="fi fi-rr-phone-call"></i> +49 (0) 151 - 4248 0387</div>
             </li>
             <li class="mail">
-                <div class="label">E-Mail</div>
-                <div class="text"><a href="mailto:ronny.deuse@gmail.com">ronny.deuse@gmail.com</a></div>
+                <div class="text"><i class="fi fi-rr-envelope"></i> <a href="mailto:ronny.deuse@gmail.com">ronny.deuse@gmail.com</a></div>
+            </li>
+            <li class="web">
+                <div class="text"><i class="fi fi-rr-globe"></i> <a href="https://ronnydeuse.github.io/" target="_blank">ronnydeuse.github.io</a></div>
             </li>
             <li class="github">
-                <div class="label">Github</div>
-                <div class="text"><a href="https://github.com/RonnyDeuse" target="_blank">RonnyDeuse</a></div>
+                <div class="text"><i class="fi fi-brands-github"></i> <a href="https://github.com/RonnyDeuse" target="_blank">RonnyDeuse</a></div>
             </li>
             <li class="linkedin">
-                <div class="label">Linked-in</div>
-                <div class="text"><a href="https://www.linkedin.com/in/ronny-deuse-73915a239" target="_blank">ronny-deuse-73915a239</a></div>
+                <div class="text"><i class="fi fi-brands-linkedin-circle"></i> <a href="https://www.linkedin.com/in/ronny-deuse-73915a239" target="_blank">ronny-deuse-73915a239</a></div>
             </li>
         </ul>
     </section>
@@ -436,6 +435,10 @@ const miscSection = `
 `;
 */
 
+const footerSection = `
+    <footer>Uicons by <a href="https://www.flaticon.com/uicons">Flaticon</a></footer>
+`;
+
 /**
  * app
  */
@@ -461,6 +464,7 @@ document.querySelector('#app').innerHTML = `
             ${experienceSection}
         </div>
     </div>
+    ${footerSection}
 `;
 
 /*
