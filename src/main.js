@@ -12,7 +12,7 @@ const titleSection = `
         <div class="profile-info">
             <h1>RONNY DEUSE</h1>
             <h2>Software-Entwicklung, Integration und Automatisierung</h2>
-            <div class="location">Dresden, Deutschland</div>
+            <div class="location">Dresden</div>
         </div>
     </section>
 `;
@@ -35,7 +35,7 @@ const aboutSection = `
  */
 const skillsSection = `
     <section id="skills">
-        <h3>Technische Fähigkeiten</h3>
+        <h3>Kompetenzen</h3>
         <ul>
             <li>
                 <div class="label">Frontend</div>
@@ -80,6 +80,14 @@ const skillsSection = `
                     <li>CI+CD</li>
                 </ul>
             </li>
+            <li>
+                <div class="label">Zusatzqualifikationen</div>
+                <ul class="badges">
+                    <li>Führerschein</li>
+                    <li>Ersthelfer</li>
+                    <li>Brandschutzhelfer</li>
+                </ul>
+            </li>
         </ul>
     </section>
 `;
@@ -89,7 +97,7 @@ const skillsSection = `
  */
 const experienceSection = `
     <section id="experience">
-        <h3>Berufserfahrung</h3>
+        <h3>Erfahrung</h3>
         <ul class="jobs">
             <li class="collapsed">
                 <div class="header">
@@ -357,6 +365,10 @@ const educationSection = `
                 <div class="label">Berufsbildungszentrum Wittenberg | 1997</div>
                 <div class="text">Technischer Assistent für Informatik</div>
             </li>
+            <li>
+                <div class="label">Gymnasium Jessen | 1995</div>
+                <div class="text">Abitur</div>
+            </li>
         </ul>
         <ul>
             <li>
@@ -377,6 +389,10 @@ const contactSection = `
     <section id="contact">
         <h3>Kontakt</h3>
         <ul class="contacts">
+            <li class="phone">
+                <div class="label">Telefon</div>
+                <div class="text">+49 (0) 151 - 4248 0387</div>
+            </li>
             <li class="mail">
                 <div class="label">E-Mail</div>
                 <div class="text"><a href="mailto:ronny.deuse@gmail.com">ronny.deuse@gmail.com</a></div>
@@ -393,6 +409,7 @@ const contactSection = `
     </section>
 `;
 
+/*
 const miscSection = `
     <section id="misc">
         <h3>Verschiedenes</h3>
@@ -417,6 +434,7 @@ const miscSection = `
         </ul>
     </section>
 `;
+*/
 
 /**
  * app
@@ -425,18 +443,18 @@ document.querySelector('#app').innerHTML = `
     ${titleSection}
     <div class="narrow-view">
         ${aboutSection}
+        ${contactSection}
         ${skillsSection}
         ${experienceSection}
         ${referencesSection}
         ${educationSection}
-        ${contactSection}
     </div>
     <div class="wide-view">
         <div class="sidebar">
-            ${skillsSection}
-            ${referencesSection}
-            ${educationSection}
             ${contactSection}
+            ${referencesSection}
+            ${skillsSection}
+            ${educationSection}
         </div>
         <div class="content">
             ${aboutSection}
