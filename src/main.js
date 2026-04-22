@@ -23,8 +23,9 @@ const titleSection = `
 const aboutSection = `
     <section id="about">
         <p>
-            Mein Job erlaubt es mir, meine Begeisterung für Technologie mit der Freude an der Lösung komplexer Aufgabenstellungen zu verbinden.
-            Mit 20+ Jahren Erfahrung in der Software-Entwicklung habe ich Projekte in verschiedenen Funktionen unterstützt: Von Prozess- und Anforderungsanalyse, über Planung und Steuerung - sowohl klassisch als auch agil, bis zur testgetriebenen Implementierung. Aktuell liegt mein Fokus auf der Integration und Automatisierung von Systemen, Geräten und Prozessen.
+            Mein Job erlaubt mir, meine Begeisterung für Technologie mit der Freude an der Lösung komplexer Aufgabenstellungen zu verbinden.
+            Mit 20+ Jahren Erfahrung in der Software-Entwicklung habe ich Projekte in verschiedenen Funktionen begleitet:
+            Von Prozess- und Anforderungsanalyse, über Planung und Steuerung - sowohl klassisch als auch agil, bis zur testgetriebenen Implementierung. Aktuell liegt mein Fokus auf der Integration und Automatisierung von Systemen, Geräten und Prozessen.
         </p>
     </section>
 `;
@@ -429,7 +430,6 @@ document.querySelector('#app').innerHTML = `
         ${referencesSection}
         ${educationSection}
         ${contactSection}
-        ${miscSection}
     </div>
     <div class="wide-view">
         <div class="sidebar">
@@ -437,7 +437,6 @@ document.querySelector('#app').innerHTML = `
             ${referencesSection}
             ${educationSection}
             ${contactSection}
-            ${miscSection}
         </div>
         <div class="content">
             ${aboutSection}
