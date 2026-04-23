@@ -284,7 +284,7 @@ ul.jobs {
  * responsive design
  */
 
-.wide-view {
+.wide-view, .print-view {
     display: none;
     grid-template-columns: 300px 1fr;
     grid-template-areas: "header header" "sidebar content";
@@ -350,6 +350,18 @@ ul.jobs {
         }
     }
 
+    .narrow-view {
+        display: none;
+    }
+
+    .wide-view {
+        display: none;
+    }
+
+    .print-view {
+        display: grid;
+    }
+
     .sidebar {
         min-width: 250px;
 
@@ -368,6 +380,7 @@ ul.jobs {
 
     #title {
         box-shadow: none;
+        grid-area: header;
 
         h2 {
             background: #fff;

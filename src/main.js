@@ -486,6 +486,19 @@ document.querySelector('#app').innerHTML = `
             ${experienceSection}
         </div>
     </div>
+    <div class="print-view">
+        ${titleSection}
+        <div class="sidebar">
+            ${contactSection}
+            ${skillsSection}
+            ${referencesSection}
+            ${educationSection}
+        </div>
+        <div class="content">
+            ${aboutSection}
+            ${experienceSection}
+        </div>
+    </div>
     ${footerSection}
 `;
 
