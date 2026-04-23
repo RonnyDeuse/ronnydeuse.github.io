@@ -4,8 +4,8 @@ import './main.css'
  * title
  */
 
-import profilePhoto from './assets/photo-small.png';
-import profilePhotoLarge from './assets/photo-big.png';
+import profilePhoto from './assets/alt-photo-small.png';
+import profilePhotoLarge from './assets/alt-photo-big.png';
 
 const titleSection = `
     <section id="title">
